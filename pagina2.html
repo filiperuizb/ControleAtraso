@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="ImgHeader" src="logo.jpg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#" style="font-family: Arial, Helvetica, sans-serif;">Equipe</a>
+                    <a class="nav-link active" aria-current="page" href="#" style="font-family: Arial, Helvetica, sans-serif;">Demitido</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="row mt-3">
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between align-items-center" style="background-color: #b9cbd3;">
+                    <h1 style="color: #4C585B;">10</h1>
+                    <h6 style="color: #4C585B;">Atrasaram</h6>
+                    <img class="imgCard" src="atrasado.png" alt="Atraso">
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between align-items-center" style="background-color: #b9cbd3;">
+                    <h1 style="color: #4C585B;">20</h1>
+                    <h6 style="color: #4C585B;">Na hora</h6>
+                    <img class="imgCard" src="nahora.png" alt="Nahora">
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between align-items-center" style="background-color: #b9cbd3;">
+                    <h1 style="color: #4C585B;">30</h1>
+                    <h6 style="color: #4C585B;">Colaboradores</h6>
+                    <img class="imgCard" src="pessoa.png" alt="Colaboradores">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 text-end">
+      <div class="col-12">
+        <button type="button" class="btn btn-secondary btn-filter filtro">Filter</button>
+      </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Entrada</th>
+                <th scope="col">Saída</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr>
+                <th scope="row">8</th>
+                <td><a class="link-opacity-75" href="perfil.html">Nome8</a></td>
+                <td class="entrada">00:00</td>
+                <td class="saida">00:00</td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td><a class="link-opacity-75" href="perfil.html">Nome9</a></td>
+                <td class="entrada">00:00</td>
+                <td class="saida">00:00</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td><a class="link-opacity-75" href="perfil.html">Nome10</a></td>
+                <td class="entrada">00:00</td>
+                <td class="saida">00:00</td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td><a class="link-opacity-75" href="perfil.html">Nome11</a></td>
+                <td class="entrada">00:00</td>
+                <td class="saida">00:00</td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td><a class="link-opacity-75" href="perfil.html">Nome12</a></td>
+                <td class="entrada">00:00</td>
+                <td class="saida">00:00</td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td><a class="link-opacity-75" href="perfil.html">Nome13</a></td>
+                <td class="entrada">00:00</td>
+                <td class="saida">00:00</td>
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td><a class="link-opacity-75" href="perfil.html">Nome14</a></td>
+                <td class="entrada">00:00</td>
+                <td class="saida">00:00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-end">
+        <nav aria-label="...">
+            <ul class="pagination pagination-sm">
+                <li class="page-item"><a class="page-link" href="pagina1.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="pagina2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="pagina3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="pagina4.html">4</a></li>
+                <li class="page-item"><a class="page-link" href="pagina5.html">5</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <button type="button" class="btn btn-danger btn-exportar">Exportar</button>
+
+    <div class="position-relative">
+        <div class="position-absolute top-100 start-50 translate-middle">
+            <h6>© feito por Filipe Ruiz Boligon</h6>
+        </div>
+    </div>
+</body>
+
+</html>

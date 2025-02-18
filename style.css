@@ -1,0 +1,74 @@
+.ImgHeader{
+    width: 50px;
+    height: 50px;
+}
+
+.imgAvatar {
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+}
+
+.imgCard {
+    width: 70px;
+    height: 70px;
+}
+
+.infoCard {
+    margin-top: -10px;
+}
+
+.btn-exportar {
+    margin-top: -100px; 
+    margin-left: 10px;
+}
+
+.btn-filter {
+    margin-right: 10px; 
+}
+
+.saida {
+    color:red !important
+}
+
+.entrada {
+    color:green !important
+}
+
+.copy {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card {
+    border-radius: 5px;
+    padding: 1px;
+    box-shadow: 0px 2px 10px rgba(255, 89, 89, 0.1);
+}
+
+.fixed-button {
+    position: absolute;
+    bottom: 200px; 
+    right: 500px;  
+}
+
+.filtro {
+    position: absolute;
+    bottom: 640px; 
+    right: 20px;  
+}
+
+.table {
+    margin: 20px auto; 
+    width: 98%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
