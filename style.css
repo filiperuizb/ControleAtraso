@@ -19,8 +19,8 @@
 }
 
 .btn-exportar {
-    margin-top: -100px; 
-    margin-left: 10px;
+    margin-top: -70px; 
+    margin-left: 22px;
 }
 
 .btn-filter {
@@ -56,13 +56,16 @@
 
 .filtro {
     position: absolute;
-    bottom: 640px; 
+    bottom: 650px; 
     right: 20px;  
 }
 
 .table {
-    margin: 20px auto; 
-    width: 98%;
+    width: 98%; 
+    margin: 0 auto;
+    border: 2px solid #b9cbd3;
+    padding: 5px;
+    background: #fff;
 }
 
 h1 {
