@@ -19,8 +19,8 @@
 }
 
 .btn-exportar {
-    margin-top: -70px; 
-    margin-left: 22px;
+    margin-top: -130px; 
+    margin-left: 30px;
 }
 
 .btn-filter {
@@ -29,6 +29,11 @@
 
 .saida {
     color:red !important
+}
+
+.card {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .entrada {
@@ -63,10 +68,14 @@
 .table {
     width: 98%; 
     margin: 0 auto;
-    border: 2px solid #b9cbd3;
     padding: 5px;
-    background: #fff;
+    background: #fff; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #ccc;
 }
+
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
