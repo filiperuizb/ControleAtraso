@@ -9,7 +9,7 @@ O projeto foi um desafio lançado em sala de aula, onde um aluno escolhido para 
 ![Controle Atrasos](https://i.imgur.com/0dJHKpV.png)
 
 ## Visualização Perfil  
-![Controle Atrasos](https://i.imgur.com/io0wrZ5.png)
+![Controle Atrasos](https://i.imgur.com/OFeJWRU.png)
 
 ## Atualizações a fazer
 - Implementação do sistema de registro de ponto
