@@ -17,5 +17,5 @@ O projeto foi um desafio lançado em sala de aula, onde um aluno escolhido para 
 - Melhorias na interface do usuário
 
 ## Autor
-- **Filipe Ruiz Boligon** - [Seu GitHub](https://github.com/filiperuizb)
+- [Filipe Ruiz Boligon](https://github.com/filiperuizb)
 
